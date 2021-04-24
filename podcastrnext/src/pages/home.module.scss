@@ -1,7 +1,7 @@
 .homepage {
     padding: 0 4rem;
     height: calc(100vh - 6.5rem);
-    overflow-y: scroll;
+    overflow-y: scroll; // colocando a opção de rolagem somente na parte do homepage para na hora de rolar não descer, o header junto
 
     h2 {
         margin-top: 3rem;
