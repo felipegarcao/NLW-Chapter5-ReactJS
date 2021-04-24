@@ -9,6 +9,8 @@ import { useRouter } from 'next/router'
 import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString';
 
 import styles from './episode.module.scss';
+import { usePlayer } from '../../contexts/PlayerContext';
+import Head from 'next/head';
 type Episode = {
     id: string;
     title: string;
@@ -27,8 +29,13 @@ type EpisodeProps = {
 }
 
 export default function Episode({ episode }: EpisodeProps) {
+    const { play } = usePlayer()
+
     return (
         <div className={styles.episode}>
+            <Head>
+                <title>{episode.title} | Podcastr </title>
+            </Head>
             <div className={styles.thumbnailContainer}>
                 <Link href="/">
                     <button type="button">
@@ -41,7 +48,7 @@ export default function Episode({ episode }: EpisodeProps) {
                     src={episode.thumbnail}
                     objectFit="cover"
                 />
-                <button type="button">
+                <button type="button" onClick={() => play(episode)}>
                     <img src="/play.svg" alt="Tocar Episodio" />
                 </button>
             </div>
