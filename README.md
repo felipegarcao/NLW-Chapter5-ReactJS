@@ -61,6 +61,33 @@
  
  # Aula 2 🚀
 
+### O Que Vamos Ver ? 🎬
+
+* Criar Estilos Globais
+* o Por que De Esta Utilizando TypeScript ?
+* Criar os Componentes de Header e Player.
+* Configurar Api com Json.
+* SPA vs SSR vs SSG.
+* Gerar Home De Forma Estatica.
+* Criando Build do Projeto.
+* Executando Build Do Projeto.
+
+
+#### Explicação Sobre o TypeScript (8:55)
+
+* Ele é usado Muito em Questão parar fazer Manutenção Nos Codigos
+* As Tipagem Geralmente Começar Com Letras Maisculas.
+
+![Screenshot_18](https://user-images.githubusercontent.com/78617974/116110495-1ef5f580-a68c-11eb-898f-4119d87e5673.jpg)
+
+* Chamar A Função Que Estiver Com Tipagem, em outro Lugar ira dar Erro se não passar Parametro.
+
+
+
+
+
+
+
 
 
 
