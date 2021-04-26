@@ -19,7 +19,7 @@
 
 ## Explicando Fluxo da Api (21:20)
 
-* Explicou o Que é um Json (JavaScript Objectt Notation), é a Maneira que  Travega dados entre o Back-End e o Front-End
+* Explicou o Que é um Json (JavaScript Object Notation), é a Maneira que  Travega dados entre o Back-End e o Front-End
 
 * Apartir que Desenvolvemos o Back-end e ele fornece dados é chamado de `API RESTful` (Quando a API é RESTful é cheia de "Regrinhas" chatas)
 
