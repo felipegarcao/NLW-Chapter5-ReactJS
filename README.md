@@ -81,19 +81,12 @@
 ![Screenshot_18](https://user-images.githubusercontent.com/78617974/116110495-1ef5f580-a68c-11eb-898f-4119d87e5673.jpg)
 
 * Chamar A Função Que Estiver Com Tipagem, em outro Lugar ira dar Erro se não passar Parametro.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*  Criando a Pastar `src`, a pasta pages tem que existir dentro da raiz do projeto ou dentro da pasta do  `src`.
+* Instalando o Sass e convertendo os css para Sass.
+* Adicionando Variaveis de Cores (25:15)
+* Explicando A Medida Rem (27:10)
+* Pegando fontes do google Lexend para titulos e inter para textos.
+* o Arquivo App é o principal, fica por volta de todas nossas paginas.
+* Criando A Pagina de Componentes  (37:35)
+* Criando a Estrutura do Header (39:20)
+* Adicionando as Imagens Svg no `Public`, Apos colocar as  img na Pasta Public posso passar no `src` da tag img `/nomedaimagem.tipo` que ja buscar na pasta public
