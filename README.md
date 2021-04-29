@@ -90,3 +90,5 @@
 * Criando A Pagina de Componentes  (37:35)
 * Criando a Estrutura do Header (39:20)
 * Adicionando as Imagens Svg no `Public`, Apos colocar as  img na Pasta Public posso passar no `src` da tag img `/nomedaimagem.tipo` que ja buscar na pasta public
+
+# Continuar 41:12
