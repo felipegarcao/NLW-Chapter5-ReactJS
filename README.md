@@ -90,5 +90,25 @@
 * Criando A Pagina de Componentes  (37:35)
 * Criando a Estrutura do Header (39:20)
 * Adicionando as Imagens Svg no `Public`, Apos colocar as  img na Pasta Public posso passar no `src` da tag img `/nomedaimagem.tipo` que ja vai buscar na pasta public
+* Estilizando o Header
+* No React Inves de Utilizar class  é usado ClassName
+* usando o `new Date().toLocaleDateString()` para capturar a data atual, no header
+* importando o `format` do `data/fns/format` e importanto o pt-BR do `date-fns/locale/pt-BR`.
 
-# Continuar 41:12
+
+### Criando o Componente de Player (48:15)
+
+* Criando os Styles no Player
+* Criando As Estruturas Html, Button, e  Adicionando as `img.svg` nos Button
+* Depois de Pronto as Estilização
+* Vamos começar a Configurar nossa `Api` em `Json`.
+* Baixando o Arquivo Json com todos os dados do nosso projeto, sera Adicionado na Raiz do Projeto.
+* Utilizando o `json-server` que cria uma API "Fake".
+* Instalando o Json server com `yarn add json-server -D`
+* Criando um Script no `package.json` que é o comando `"server": "json-server server.json -w  -d 750 -p 3333 "
+* Rodando o `yarn server`.
+* Explicando o Consumo da API (1:09:10)
+
+# voltar 1:09:10
+
+
