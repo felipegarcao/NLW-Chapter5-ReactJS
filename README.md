@@ -108,7 +108,8 @@
 * Criando um Script no `package.json` que é o comando `"server": "json-server server.json -w  -d 750 -p 3333 "
 * Rodando o `yarn server`.
 * Explicando o Consumo da API (1:09:10)
-
-# voltar 1:09:10
+* Utilizando a Função de `useEffect`
+* iniciando a build do projeto `yarn build`
+* Utilizando Geração Estatica no Projeto
 
 
