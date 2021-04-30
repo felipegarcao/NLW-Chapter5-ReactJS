@@ -112,4 +112,6 @@
 * iniciando a build do projeto `yarn build`
 * Utilizando Geração Estatica no Projeto
 
+# Aula 3 🚀
+
 
