@@ -128,8 +128,11 @@
 * Fazendo A Tipagem `HomeProps` para o Home
 * Manipulando o `localhost/3333`colocando limit, ordenando por ordem de publicação, e ordem decrescente.
 * Criando a Pasta `services`, colocando dentro um  arquivo `api.ts1`
+
 ![Screenshot_30](https://user-images.githubusercontent.com/78617974/116811301-091a8180-ab1f-11eb-90ae-e43e003e699a.jpg)
+
 * Instalando o Axios (é uma Biblioteca Para Fazer Requesição HTTP assim como o fetch, porem com mais funcionalidade.
+
 ### Resultado Final Utilizando Axios, como Ficou a Manipulação da `API`
 ![Screenshot_31](https://user-images.githubusercontent.com/78617974/116811355-4252f180-ab1f-11eb-8187-7f0a8e4ef43c.jpg)
 
@@ -156,8 +159,11 @@
 ### Começando a Parte Estrutural (30:10)  😵😵
 
 * Importanto o Image do Next, é colocado no lugar da tag `img` serve para automatizar as imagens pesadas.
+
 ![Screenshot_37](https://user-images.githubusercontent.com/78617974/116812494-631e4580-ab25-11eb-852f-f9d2147bb26e.jpg)
+
 *  Criando um Arquivo na Raiz do Projeto Chamado `next.config.js`
+
 ![Screenshot_36](https://user-images.githubusercontent.com/78617974/116812437-22bec780-ab25-11eb-86b1-e2e9f630b27e.jpg)
 
 #### Começando a Estilização (43:30)  😵😵
