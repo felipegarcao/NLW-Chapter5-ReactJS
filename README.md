@@ -168,6 +168,19 @@
 
 #### Começando a Estilização (43:30)  😵😵
 
+* Estilizando a Home Page com as img
+* Criando Uma Tabela para colocar os Episodes com Otimização de Imagens, e puxando os episodes.id,episodes.title e etc....
+* Estilizando as Tabelas
+
+
+### Roteamento no Next.js
+
+* Criando uma pasta episode e dentro dela criando um arquivo chamado `[slug].tsx`.
+* importanto de dentro no next o `UseRouter`.
+
+
+
+
 
 
 
