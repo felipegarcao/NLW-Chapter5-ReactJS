@@ -23,7 +23,7 @@
 
 * Apartir que Desenvolvemos o Back-end e ele fornece dados é chamado de `API RESTful` (Quando a API é RESTful é cheia de "Regrinhas" chatas)
 
-* Spa (Single-Page Aplication) é uma unica pagina que Atualiza os Dados De Forma Necessária, Por Exemplo: Quando Eu For Alterar algum Conteudo Na Minha Aplicação, o Header vai manter, o rodape tbm. So Vai Mudar o Conteudo em Si, Para não Pesar no Carregamento e deixar nosso aplicação em um ritmo lento...
+* Spa (Single-Page Aplication) é uma unica pagina que Atualiza os Dados De Forma Necessária, Por Exemplo: Quando Eu For Alterar algum Conteudo Na Minha Aplicação, o Header vai manter, o rodape tbm. So Vai Mudar o Conteudo em Si, Para não Pesar no Carregamento e deixar nosso aplicação em um ritmo Rapido...
 
 ## Iniciando o Projeto React (30:28)
 
@@ -73,10 +73,10 @@
 * Executando Build Do Projeto.
 
 
-#### Explicação Sobre o TypeScript (8:55)
+#### Explicação Sobre o TypeScript (8:55) 😵
 
 * Ele é usado Muito em Questão parar fazer Manutenção Nos Codigos
-* As Tipagem Geralmente Começar Com Letras Maisculas.
+* As Tipagem Geralmente Começam Com Letras Maisculas.
 
 ![Screenshot_18](https://user-images.githubusercontent.com/78617974/116110495-1ef5f580-a68c-11eb-898f-4119d87e5673.jpg)
 
@@ -89,14 +89,14 @@
 * o Arquivo App é o principal, fica por volta de todas nossas paginas.
 * Criando A Pagina de Componentes  (37:35)
 * Criando a Estrutura do Header (39:20)
-* Adicionando as Imagens Svg no `Public`, Apos colocar as  img na Pasta Public posso passar no `src` da tag img `/nomedaimagem.tipo` que ja vai buscar na pasta public
+* Adicionando as Imagens Svg na pasta `Public`, Apos colocar as  img na Pasta Public posso passar no `src` da tag img `/nomedaimagem.svg` que ja vai buscar na pasta public
 * Estilizando o Header
-* No React Inves de Utilizar class  é usado ClassName
+* No React Inves de Utilizar class é utilizado ClassName
 * usando o `new Date().toLocaleDateString()` para capturar a data atual, no header
 * importando o `format` do `data/fns/format` e importanto o pt-BR do `date-fns/locale/pt-BR`.
 
 
-### Criando o Componente de Player (48:15)
+### Criando o Componente de Player (48:15) 😵
 
 * Criando os Styles no Player
 * Criando As Estruturas Html, Button, e  Adicionando as `img.svg` nos Button
@@ -111,7 +111,61 @@
 * Utilizando a Função de `useEffect`
 * iniciando a build do projeto `yarn build`
 * Utilizando Geração Estatica no Projeto
+* Usando a Função `getStaticProps()`.
+* Coletou os Dados de `API`
+
+<hr>
 
 # Aula 3 🚀
+
+### O Que Vamos Ver ? 🎬 
+
+* Vamos Finalizar a Home Page do Projeto
+* Converte os dados em Interface
+
+### Tipando A Função `getStaticProps()` (6:10) 😵
+
+* Fazendo A Tipagem `HomeProps` para o Home
+* Manipulando o `localhost/3333`colocando limit, ordenando por ordem de publicação, e ordem decrescente.
+* Criando a Pasta `services`, colocando dentro um  arquivo `api.ts1`
+![Screenshot_30](https://user-images.githubusercontent.com/78617974/116811301-091a8180-ab1f-11eb-90ae-e43e003e699a.jpg)
+* Instalando o Axios (é uma Biblioteca Para Fazer Requesição HTTP assim como o fetch, porem com mais funcionalidade.
+### Resultado Final Utilizando Axios, como Ficou a Manipulação da `API`
+![Screenshot_31](https://user-images.githubusercontent.com/78617974/116811355-4252f180-ab1f-11eb-8187-7f0a8e4ef43c.jpg)
+
+
+### Formatação Dos Dados 😵
+
+* Importando o `data-fns` e pegando o format e o ParseISO, O ParseISO vai servir para pegar uma data e converter o date no javaScript.
+
+
+![Screenshot_32](https://user-images.githubusercontent.com/78617974/116811597-9d391880-ab20-11eb-80dd-e21fc697e3bf.jpg)
+
+* Criando uma Pasta `utils`dentro da nossa aplicação, e dentro criando o arquivo `convertDurationString.ts`, essa função vai ser utlizada para converter os dados da duração de segundos para horas e minutos.
+
+![Screenshot_33](https://user-images.githubusercontent.com/78617974/116811792-9a8af300-ab21-11eb-92e4-20fd548e77fd.jpg)
+
+* Resultado Final da Formatação dos dados  na constante `episodes`. 😍😍
+
+![Screenshot_34](https://user-images.githubusercontent.com/78617974/116811883-08371f00-ab22-11eb-9b58-3686322c4ada.jpg)
+
+* Como Mudamos o Formatado dos Dados nossa tipagem vai mudar tbm.
+
+![Screenshot_35](https://user-images.githubusercontent.com/78617974/116811942-6401a800-ab22-11eb-8c15-0c30a01db622.jpg)
+
+### Começando a Parte Estrutural (30:10)  😵😵
+
+* Importanto o Image do Next, é colocado no lugar da tag `img` serve para automatizar as imagens pesadas.
+![Screenshot_37](https://user-images.githubusercontent.com/78617974/116812494-631e4580-ab25-11eb-852f-f9d2147bb26e.jpg)
+*  Criando um Arquivo na Raiz do Projeto Chamado `next.config.js`
+![Screenshot_36](https://user-images.githubusercontent.com/78617974/116812437-22bec780-ab25-11eb-86b1-e2e9f630b27e.jpg)
+
+
+
+
+
+
+
+
 
 
