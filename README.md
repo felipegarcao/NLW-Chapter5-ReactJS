@@ -160,6 +160,7 @@
 *  Criando um Arquivo na Raiz do Projeto Chamado `next.config.js`
 ![Screenshot_36](https://user-images.githubusercontent.com/78617974/116812437-22bec780-ab25-11eb-86b1-e2e9f630b27e.jpg)
 
+#### Começando a Estilização (43:30)  😵😵
 
 
 
