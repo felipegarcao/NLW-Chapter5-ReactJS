@@ -7,7 +7,7 @@
 * Entender os Principais Conceitos Do React.
 * Criar o Projeto com `Next.js`
 
- ## Resumo do Que é o React
+ ## Resumo do Que é o React  😵
  
 * É Basicamente uma Biblioteca Feita para construção de Interface que São Altamentes Interativas.
 
