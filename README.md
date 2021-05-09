@@ -176,12 +176,16 @@
 ### Roteamento no Next.js
 
 * Criando uma pasta episode e dentro dela criando um arquivo chamado `[slug].tsx`.
-* importanto de dentro no next o `UseRouter`.
-
-
-
-
-
+* importanto de dentro do next o `UseRouter`.
+* Utilizando o metodo `getStaticProps`, para paginas estaticas.
+* Utilizando o Context API.
+* Formatandos os dados
+* Realizando a Typagem de `Episode`
+* Criando uma corpo html e colocando estilo.
+* Forçando o React A Renderizar o Html, `dangerousSetInnerHTML={{ html: episode.description }}`
+* Colocando o Macete dos Botão com `transalate`
+* Observando a funcionalidade do Botão voltar
+### Resumão da aula (1:29:10) 🚀🚀
 
 
 
